@@ -11,7 +11,9 @@
         <th style="color: aliceblue ; background: darkorange ; text-align: center" colspan="4" >SỞ THÍCH CỦA BẠN</th>
     </tr>
     <tr>
-        <td style="color: blue">Họ và tên</td> <td><input type="text" name="Name"></td>
+        <td style="color: blue">Họ và tên</td> <td><label>
+        <input type="text" name="Name">
+    </label></td>
     </tr>
     <tr>
         <td style="color: blue">Email</td>
@@ -19,20 +21,20 @@
     </tr>
     <tr>
         <td style="color: blue"> Sở Thích</td>
-        <td style="color: orange"> <input type="checkbox" name="Hobby"> Thể Thao
-            <input type="checkbox" name="Hobby"> Âm Nhạc
-            <input type="checkbox" name="Hobby">Đọc sách</td>
+        <td style="color: orange"> <input type="checkbox" name="Hobby" value="Thể Thao"> Thể Thao
+            <input type="checkbox" name="Hobby" value="Âm nhạc"> Âm Nhạc
+            <input type="checkbox" name="Hobby" value="Đọc Sách">Đọc sách</td>
     </tr>
     <tr>
         <td> </td>
-        <td style="color: orange"> <input type="checkbox" name="Hobby"> Lướt Web
-            <input type="checkbox" name="Hobby"> Chơi Game
-            <input type="checkbox" name="Hobby">Điện Ảnh</td>
+        <td style="color: orange"> <input type="checkbox" name="Hobby" value="Lướt Web"> Lướt Web
+            <input type="checkbox" name="Hobby" value="Chơi Game"> Chơi Game
+            <input type="checkbox" name="Hobby" value="Điện Ảnh">Điện Ảnh</td>
 
     </tr>
     <tr>
         <td> </td>
-        <td style="color: orange"><input type="checkbox" name="Hobby">Đu Lịch</td>
+        <td style="color: orange"><input type="checkbox" name="Hobby" value="Du lịch">Đu Lịch</td>
     </tr>
     <tr>
         <td> </td>
@@ -58,7 +60,7 @@
         </tr>
         <tr>
             <td  style="color: blue">Giới tính</td>
-            <td><input type="radio" name="sex">Nam <input type="radio" name="sex">Nữ</td>
+            <td><input type="radio" name="sex" value="Nam">Nam <input type="radio" name="sex" value="Nữ">Nữ</td>
         </tr>
         <tr>
             <td style="color: blue">Địa Chỉ</td> <td><input type="text" name="Address"></td>
@@ -67,9 +69,9 @@
             <td style="color: blue">Lớp</td> <td>
             <select name="class">
                 <option>-Chọn Lớp-</option>
-                <option>C22031</option>
-                <option>C22032 </option>
-                <option>C22033</option>
+                <option value="C22031">C22031</option>
+                <option value="C22032">C22032 </option>
+                <option value="C22033">C22033</option>
             </select>
         <tr>
             <td style="color: blue">Email</td>
